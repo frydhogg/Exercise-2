@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title> Exercise 2 </title>
+	<link rel="stylesheet" href="https://rawcdn.githack.com/xsheizen/Exercise-2/9f53c49c8e05bc277ba4e308a71494321db042fb/calcudevc.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+	<script type="text/javascript" src="https://rawcdn.githack.com/xsheizen/Exercise-2/9f53c49c8e05bc277ba4e308a71494321db042fb/calc.js"></script>
+</head>
+<body>
+ <form name="calcudev">
+	<table border="1">
+	  <tr>
+		<td colspan="4"><input type="text" name="screen" id="screen" placeholder="0" disabled></td>
+	  </tr>
+	  <tr>
+	    <td> <input type="button" value="C" onclick="hapusFunction()"></td>
+		<td> <input type="button" value="%" onclick="percFunction()"></td>	
+		<td> <input type="button" value="/" onclick="dispFunction('/')"></td>	
+		<td> <input type="button" value="X" onclick="dispFunction('*')"></td>
+	  </tr>
+	  <tr>
+	    <td> <input type="button" value="7" onclick="dispFunction(7)"></td>
+		<td> <input type="button" value="8" onclick="dispFunction(8)"></td>	
+		<td> <input type="button" value="9" onclick="dispFunction(9)"></td>	
+		<td> <input type="button" value="-" onclick="dispFunction('-')"></td>
+	  </tr>
+	  <tr>
+	    <td><input type="button" value="4" onclick="dispFunction(4)"></td>
+		<td><input type="button" value="5" onclick="dispFunction(5)"></td>	
+		<td><input type="button" value="6" onclick="dispFunction(6)"></td>
+		<td rowspan=2><input style="height:118px;" type="button" value="+" onclick="dispFunction('+')"></td>
+	  </tr>
+	  <tr>
+		<td><input type="button" value="1" onclick="dispFunction(1)"></td>
+		<td><input type="button" value="2" onclick="dispFunction(2)"></td>
+		<td><input type="button" value="3" onclick="dispFunction(3)"></td>
+		
+	  </tr>
+	  <tr>
+		<td><input type="button" value="0" onclick="dispFunction(0)"></td>
+		<td><input type="button" value="." onclick="dispFunction('.')"></td>
+		<td colspan=2><input style="width:110px;" type="button" value="=" onclick="samaDengan()"></td>
+		
+	  </tr>
+	</table>
+</form>
+<h4 style="font-size:15px;color:#d4d4d4;text-align:center;font-family:'Ubuntu';">Exercise-2 by Frydho Ghazian</h4>
+</body>
+</html>
